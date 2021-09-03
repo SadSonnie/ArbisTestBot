@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec6de15e-3536-47ea-bb55-21e76987c6e8">
+  <producedTypes>
+    <managerType typeId="ca451dcb-5373-4103-be62-f75ec51276e5" valueTypeId="a867e048-8641-4062-bc2d-f2a325e84197"/>
+    <valueManagerType typeId="2a42ec26-f017-4e8c-bb71-c774cb52159d" valueTypeId="c1c2799d-96b4-4fc0-8ee2-aa354fd08d84"/>
+    <valueKeyType typeId="d82bceaa-aa55-49a9-8637-22c59ae5d279" valueTypeId="0c2b3445-5190-441f-bbfc-e33989a39a57"/>
+  </producedTypes>
+  <name>КлючАпи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ апи</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.КлючАпи</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
