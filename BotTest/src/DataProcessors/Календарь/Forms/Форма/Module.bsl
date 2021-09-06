@@ -76,7 +76,7 @@
 
 	ПараметрыURL = Новый Структура;
 	Адрес = "https://accounts.google.com/o/oauth2/v2/auth";
-	ПараметрыURL.Вставить("client_id", "<ваш уникальный идентификатор приложения из Google API console>.apps.googleusercontent.com");
+	ПараметрыURL.Вставить("client_id", "462289066521-uaio0oailru7mimmr8bccjhljar7qh4e.apps.googleusercontent.com");
 	ПараметрыURL.Вставить("redirect_uri", "http://localhost");
 	ПараметрыURL.Вставить("scope", "https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/calendar.events.readonly  https://www.googleapis.com/auth/calendar");
 	ПараметрыURL.Вставить("response_type", "code");
@@ -109,10 +109,10 @@
 	Возврат Сред(URL, НачалоКода, КонецКода - НачалоКода);
 КонецФункции
 
-&НаКлиенте
-Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
-	Адрес = Параметры.Адрес;
-КонецПроцедуры
+//&НаКлиенте
+//Процедура ПриСозданииНаСервере(Отказ, СтандартнаяОбработка)
+//	Адрес = Параметры.Адрес;
+//КонецПроцедуры
 
 
 &НаКлиенте
@@ -163,10 +163,10 @@
 	
 	ПараметрыURL = Новый Структура;
 	АдресЗапроса = "https://www.googleapis.com/oauth2/v4/token";
-	ПараметрыURL.Вставить("client_id", "<ваш идентификатор приложения из Google API Console>.apps.googleusercontent.com");
+	ПараметрыURL.Вставить("client_id", "462289066521-uaio0oailru7mimmr8bccjhljar7qh4e.apps.googleusercontent.com");
 	ПараметрыURL.Вставить("redirect_uri", "http://localhost");
 	ПараметрыURL.Вставить("code", AuthCode);
-	ПараметрыURL.Вставить("client_secret", "<ваш secret key>");
+	ПараметрыURL.Вставить("client_secret", "j7-bL-4whJea-suWkda2U42o");
 	ПараметрыURL.Вставить("grant_type", "authorization_code");
 	
 	АдресЗапроса = Адрес(АдресЗапроса, ПараметрыURL);
@@ -256,15 +256,15 @@
 	
 КонецФункции
 
-&НаКлиенте
+&НаСервере
 Функция ПолучитьСписокСобытий(Знач AccessToken,Знач ИдКалендаря)
 	
 	ПараметрыURL = Новый Структура;
 	АдресЗапроса = "https://www.googleapis.com/calendar/v3/calendars/{ИдКалендаря}/events";
-	ИдКалендаря = КодироватьURI(ИдКалендаря);
+	ИдКалендаря = КодироватьСтроку(ИдКалендаря, СпособКодированияСтроки.КодировкаURL);
 	АдресЗапроса = СтрЗаменить(АдресЗапроса, "{ИдКалендаря}", ИдКалендаря); 
 	ПараметрыURL = Новый Структура;
-	ПараметрыURL.Вставить("key", "<Секретный ключ клиента>");
+	ПараметрыURL.Вставить("key", "j7-bL-4whJea-suWkda2U42o");
 	
 	АдресЗапроса = Адрес(АдресЗапроса, ПараметрыURL);
 	
@@ -322,10 +322,10 @@
 	
 	ПараметрыURL = Новый Структура;
 	АдресЗапроса = "https://www.googleapis.com/oauth2/v4/token";
-	ПараметрыURL.Вставить("client_id", "<идентификатор приложения>.apps.googleusercontent.com");
+	ПараметрыURL.Вставить("client_id", "462289066521-uaio0oailru7mimmr8bccjhljar7qh4e.apps.googleusercontent.com");
 	ПараметрыURL.Вставить("redirect_uri", "http://localhost");
 	ПараметрыURL.Вставить("refresh_token", RefreshToken);
-	ПараметрыURL.Вставить("client_secret", "<секретный ключ>");
+	ПараметрыURL.Вставить("client_secret", "j7-bL-4whJea-suWkda2U42o");
 	ПараметрыURL.Вставить("grant_type", "refresh_token");
 	
 	АдресЗапроса = Адрес(АдресЗапроса, ПараметрыURL);
