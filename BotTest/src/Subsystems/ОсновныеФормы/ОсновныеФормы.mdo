@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2dd41b8-9e70-4ece-9d6d-8d367da56455">
+  <name>ОсновныеФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные формы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.Обработка</content>
+  <content>DataProcessor.Погода</content>
+  <content>DataProcessor.Календарь</content>
+  <content>DataProcessor.Календарь1С</content>
+</mdclass:Subsystem>

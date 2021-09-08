@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78824f44-6c58-4f4e-a0e0-1656fd7c5100">
+  <producedTypes>
+    <managerType typeId="b23dfd85-83b0-42e0-bceb-612521d0e68e" valueTypeId="fbf239eb-0352-4795-badf-27e413a09336"/>
+    <valueManagerType typeId="4e5197b9-5aa9-456e-bed4-d2305e7d26fb" valueTypeId="86f122e8-f5e6-415b-8ac2-7f13a08d918d"/>
+    <valueKeyType typeId="dfbddc9a-03c5-4088-824a-718fb900b8d2" valueTypeId="61e58cda-5aaa-4888-9552-a591dfae9927"/>
+  </producedTypes>
+  <name>СекретКлюч</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секрет ключ</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

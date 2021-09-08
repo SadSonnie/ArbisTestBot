@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3947700-7301-48a6-96a9-45cf2939ca1b">
+  <producedTypes>
+    <managerType typeId="75b5a310-6ea4-4375-8435-d57eab1c8c02" valueTypeId="b85b0498-2c95-4dfe-be54-5063c3f6be23"/>
+    <valueManagerType typeId="3077ff06-b3a2-4426-b340-8d21f3087e4b" valueTypeId="ec908084-b004-4f47-875e-db5eee8b6996"/>
+    <valueKeyType typeId="9425f95d-4f17-4228-bcc0-a52960f28366" valueTypeId="c847782e-3d14-4f1e-888c-4a53600be8c8"/>
+  </producedTypes>
+  <name>АксесТокен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аксес токен</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
