@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e698be0-3c42-4dfd-a729-838526dfbd90">
+  <name>КлючиИТокены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключи и токены</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.КлючАпи</content>
+  <content>Constant.КлиентИД</content>
+  <content>Constant.СекретКлюч</content>
+  <content>Constant.РефрешТокен</content>
+  <content>Constant.АксесТокен</content>
+</mdclass:Subsystem>

@@ -35,11 +35,18 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.КлючиИТокены</subsystems>
+  <subsystems>Subsystem.ОсновныеФормы</subsystems>
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
   <wsReferences>WSReference.CBR_DailyInfoWebServ</wsReferences>
   <constants>Constant.КлючАпи</constants>
+  <constants>Constant.КлиентИД</constants>
+  <constants>Constant.СекретКлюч</constants>
+  <constants>Constant.РефрешТокен</constants>
+  <constants>Constant.АксесТокен</constants>
   <commonForms>CommonForm.КлючАпи</commonForms>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
   <dataProcessors>DataProcessor.Погода</dataProcessors>
   <dataProcessors>DataProcessor.Календарь</dataProcessors>
+  <dataProcessors>DataProcessor.Календарь1С</dataProcessors>
 </mdclass:Configuration>

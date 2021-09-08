@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae9beca-acc1-4c42-8eca-440739d35dff">
+  <producedTypes>
+    <managerType typeId="7dc4b2ca-87ba-4509-bdf0-b99d66db06fa" valueTypeId="4c44f9cd-1025-4c3c-a302-4da51e81275a"/>
+    <valueManagerType typeId="7b02aa7f-f7b8-4f34-864c-1d6e4c3ce9ed" valueTypeId="d3ca4bc9-7e89-4f60-b904-bd1f89c5ed41"/>
+    <valueKeyType typeId="6359788f-0ea9-4942-9d74-a1fc664e4c51" valueTypeId="af063960-207a-4826-aaa2-b64eab3ebbfc"/>
+  </producedTypes>
+  <name>РефрешТокен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рефреш токен</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
