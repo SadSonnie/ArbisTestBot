@@ -44,6 +44,7 @@
   <constants>Constant.СекретКлюч</constants>
   <constants>Constant.РефрешТокен</constants>
   <constants>Constant.АксесТокен</constants>
+  <constants>Constant.AuthCode</constants>
   <commonForms>CommonForm.КлючАпи</commonForms>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
   <dataProcessors>DataProcessor.Погода</dataProcessors>

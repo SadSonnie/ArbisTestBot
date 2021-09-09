@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02998134-c321-4a58-8374-68cce9072ef2">
+  <producedTypes>
+    <managerType typeId="d9905c4d-d012-4590-9460-cfd8e35dc822" valueTypeId="ba58a927-e15e-4e35-83b3-eb9ec83fbda3"/>
+    <valueManagerType typeId="de1450b3-aaf6-4801-8de9-7d4116c5db9c" valueTypeId="5f5a34ad-79bf-490b-ab9b-b3290992b43f"/>
+    <valueKeyType typeId="a4422ec3-5ea4-4e78-8fc0-37dfb5adf21d" valueTypeId="9584259f-8ae1-44e0-8ab4-f7a94a5da267"/>
+  </producedTypes>
+  <name>AuthCode</name>
+  <synonym>
+    <key>ru</key>
+    <value>Auth code</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
