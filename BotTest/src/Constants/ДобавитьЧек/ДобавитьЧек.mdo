@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe01b39-f6f6-41db-8300-65b44ef2c072">
+  <producedTypes>
+    <managerType typeId="89d7428c-370e-471c-a391-eddcd5e95d3c" valueTypeId="268b1a0c-d0ab-4040-b9cd-813b29eef3db"/>
+    <valueManagerType typeId="a8d02c4d-8449-4dd5-b37c-8499e9ea99fe" valueTypeId="6f3c3192-9e3d-47a2-96d8-71656b353edd"/>
+    <valueKeyType typeId="dfa778aa-4e95-4925-90b9-84f6bf638d67" valueTypeId="188ba4ef-283c-4e49-90f7-6ddf5274764f"/>
+  </producedTypes>
+  <name>ДобавитьЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить чек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

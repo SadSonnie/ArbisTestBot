@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23e2dfb5-6e16-447e-b7cc-798e4f391bf6">
+  <producedTypes>
+    <managerType typeId="b62a806b-4272-4652-ae5e-48f3b22a6b20" valueTypeId="1d23e09b-401d-4624-8674-a48426a3efe4"/>
+    <valueManagerType typeId="b401bd54-844c-4670-bed2-07e05850a022" valueTypeId="340ca9c5-6e85-4714-b094-4c3c393709f4"/>
+    <valueKeyType typeId="2503659d-7c9b-4f1d-a7aa-d3ebf7c0bfe9" valueTypeId="7368d914-7b51-4c05-b861-29ee823d5c80"/>
+  </producedTypes>
+  <name>ГифЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гиф чек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

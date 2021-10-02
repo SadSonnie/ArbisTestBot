@@ -8,19 +8,10 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="32e9f96a-15f0-4ac0-953c-e180c883fb11"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="83b6ca25-886b-44a7-aa12-b8e907e9eaae"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="64e1d004-8160-40fb-a89f-ec0ac18b41ce"/>
-  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <usedMobileApplicationFunctionalities>
-    <functionality>
-      <use>true</use>
-    </functionality>
-    <functionality>
-      <functionality>OSBackup</functionality>
-      <use>true</use>
-    </functionality>
-  </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -37,14 +28,24 @@
   </languages>
   <subsystems>Subsystem.КлючиИТокены</subsystems>
   <subsystems>Subsystem.ОсновныеФормы</subsystems>
+  <subsystems>Subsystem.тест</subsystems>
+  <roles>Role.РольАдмин</roles>
   <commonModules>CommonModule.ОбщийМодуль1</commonModules>
+  <httpServices>HTTPService.tgbot</httpServices>
   <wsReferences>WSReference.CBR_DailyInfoWebServ</wsReferences>
+  <scheduledJobs>ScheduledJob.ОбновитьАксесТокен</scheduledJobs>
   <constants>Constant.КлючАпи</constants>
   <constants>Constant.КлиентИД</constants>
   <constants>Constant.СекретКлюч</constants>
   <constants>Constant.РефрешТокен</constants>
   <constants>Constant.АксесТокен</constants>
   <constants>Constant.AuthCode</constants>
+  <constants>Constant.TelegramBotToken</constants>
+  <constants>Constant.ГифЧек</constants>
+  <constants>Constant.ГифиТокен</constants>
+  <constants>Constant.ДобавитьЧек</constants>
+  <constants>Constant.ПоказатьЧек</constants>
+  <constants>Constant.СРМЧек</constants>
   <commonForms>CommonForm.КлючАпи</commonForms>
   <dataProcessors>DataProcessor.Обработка</dataProcessors>
   <dataProcessors>DataProcessor.Погода</dataProcessors>

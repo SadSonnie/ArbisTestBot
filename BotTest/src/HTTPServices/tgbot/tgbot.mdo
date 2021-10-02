@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e5e0e4a-3508-48b3-a884-6ce547530fe0">
+  <name>tgbot</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tgbot</value>
+  </synonym>
+  <rootURL>tgbot</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="f4a5df2a-995d-4d36-850d-b5acf548b43b">
+    <name>ПроверитьДоступность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверить доступность</value>
+    </synonym>
+    <template>/ping/{token}</template>
+    <methods uuid="324e0188-be8b-4230-9c89-92cff3b277f7">
+      <name>Get_ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get ping</value>
+      </synonym>
+      <handler>ПроверитьДоступностьGet_ping</handler>
+    </methods>
+    <methods uuid="bdca02b0-097d-41a3-9f36-d51bcd13d24b">
+      <name>tgsmth</name>
+      <synonym>
+        <key>ru</key>
+        <value>Tgsmth</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ПроверитьДоступностьtgsmth</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="ba139078-75a0-4f0f-a8a1-ca1f9a8fd242">
+    <name>message</name>
+    <synonym>
+      <key>ru</key>
+      <value>Message</value>
+    </synonym>
+    <template>/message/{token}</template>
+    <methods uuid="242887b4-82b6-404b-8321-2a2295528ecc">
+      <name>ПолучитьСообщениеТелеграм</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получить сообщение телеграм</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>messageПолучитьСообщениеТелеграм</handler>
+    </methods>
+    <methods uuid="8c6a5e95-d71d-4c8f-b4bd-3a889b636128">
+      <name>GetMethod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get method</value>
+      </synonym>
+      <handler>messageGetMethod</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c6a71ac6-04d4-419c-8c31-429497f0b6ca">
+    <name>msg</name>
+    <synonym>
+      <key>ru</key>
+      <value>Msg</value>
+    </synonym>
+    <template>/msg/{token}</template>
+    <methods uuid="c50b784b-6a0a-4e28-92d7-1e47c1adb2a2">
+      <name>GetMethod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Get method</value>
+      </synonym>
+      <handler>msgGetMethod</handler>
+    </methods>
+    <methods uuid="c0408997-ea4e-482e-8ff3-f0ee3250d561">
+      <name>PostMethod</name>
+      <synonym>
+        <key>ru</key>
+        <value>Post method</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>msgPostMethod</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

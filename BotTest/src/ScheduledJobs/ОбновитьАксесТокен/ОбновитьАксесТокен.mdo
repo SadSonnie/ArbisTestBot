@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19fc892d-48ca-4fc6-bdf6-84b52922faf5">
+  <name>ОбновитьАксесТокен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить аксес токен</value>
+  </synonym>
+  <methodName>CommonModule.ОбщийМодуль1.ОбновитьАксесТокен</methodName>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

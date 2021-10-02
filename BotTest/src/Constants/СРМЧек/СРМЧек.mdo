@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28f131a8-6ad6-41dd-a3c6-90adc450b846">
+  <producedTypes>
+    <managerType typeId="a5881f0a-3a22-4572-9aa8-243a2315c372" valueTypeId="43e2653c-da12-43fe-a98e-b1806820ac64"/>
+    <valueManagerType typeId="721d6f8b-074f-4636-a0f8-e4bbb0022c6e" valueTypeId="90529d1f-4096-49f8-9594-19956e36f9d4"/>
+    <valueKeyType typeId="b30788f0-aee8-4339-990d-8754efe8fa6b" valueTypeId="573bfa17-cd4f-4789-849b-79e1268ec77a"/>
+  </producedTypes>
+  <name>СРМЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>СРМЧек</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d8d8fce-bb9f-4aad-a38e-de53b595fda1">
+  <producedTypes>
+    <managerType typeId="cc2b5f4e-b01b-4250-8cfa-f172fa13f930" valueTypeId="2cb42f7e-9eec-432b-9d2c-1f69dcf08b0f"/>
+    <valueManagerType typeId="2711c483-f5f2-47dc-ae06-5dce43dc6761" valueTypeId="e2a475a9-9bb9-4b9a-8e76-7dbd3367d32b"/>
+    <valueKeyType typeId="47d9d43b-6b7d-4a94-b13c-c85b750af202" valueTypeId="aa4a9bd5-34a5-4c01-a119-af727ada6120"/>
+  </producedTypes>
+  <name>ГифиТокен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гифи токен</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
