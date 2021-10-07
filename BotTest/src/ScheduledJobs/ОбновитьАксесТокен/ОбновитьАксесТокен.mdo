@@ -5,7 +5,7 @@
     <key>ru</key>
     <value>Обновить аксес токен</value>
   </synonym>
-  <methodName>CommonModule.ОбщийМодуль1.ОбновитьАксесТокен</methodName>
+  <methodName>CommonModule.РегламентныеЗадачиОбщийМодуль.ОбновитьАксесТокен</methodName>
   <use>true</use>
   <restartCountOnFailure>3</restartCountOnFailure>
   <restartIntervalOnFailure>10</restartIntervalOnFailure>

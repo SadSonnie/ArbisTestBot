@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35c59faf-cc63-4a88-8a4c-efab30f564ab">
+  <producedTypes>
+    <selectionType typeId="6227bcc5-4a6f-4f07-95ff-37d509c887c9" valueTypeId="316457c6-820c-47fe-ab39-8efce4b81338"/>
+    <listType typeId="d08ac6c6-7d36-4a04-9e8d-ce1befcdc138" valueTypeId="5ef39411-4ffb-4a90-ba6f-427835c97033"/>
+    <managerType typeId="4dacf12d-8239-420e-9f54-16fa0a561cd2" valueTypeId="23dec270-c8a0-402c-afba-8e6534dc9e83"/>
+    <recordSetType typeId="d8364fea-6b06-42d4-a14c-58aa9ab91e0b" valueTypeId="2c8185ea-1795-44de-bc80-5f7126c4f539"/>
+    <recordKeyType typeId="1e31678f-1084-4157-996c-1547adc3ac6c" valueTypeId="5179d3b1-b699-44f3-94f2-6618881573af"/>
+    <recordType typeId="e39f3049-3217-4753-b838-0e0648c273de" valueTypeId="1dde6cdc-6172-4a77-9bc6-43d93bb5923d"/>
+    <recordManagerType typeId="d1933b66-7516-41f5-9ca6-360b14a01787" valueTypeId="20042bb6-ab22-4255-9138-f379015b5573"/>
+  </producedTypes>
+  <name>ДанныеПодключенияСРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные подключения СРМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1193f62d-afb5-4f34-ab3f-0d6bbe886d7e">
+    <name>СикретКей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сикрет кей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="32ee1a47-e61a-469a-a0c1-a9f24908b382">
+    <name>ИДИнеграции</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИДИнеграции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fd7b7efa-96e9-4e83-9e62-f370b687719b">
+    <name>АуфКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ауф код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7da26641-8b70-4894-a7fc-2240ec848bb0">
+    <name>АксесТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аксес токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3ab6fb66-58df-47fd-8ea4-6413adda1a1e">
+    <name>РефрешТокен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рефреш токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="52b9d2e2-276d-4699-9315-dc3b4c2e98b6">
+    <name>Субдомен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субдомен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -7,8 +7,4 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>DataProcessor.Обработка</content>
-  <content>DataProcessor.Погода</content>
-  <content>DataProcessor.Календарь</content>
-  <content>DataProcessor.Календарь1С</content>
 </mdclass:Subsystem>

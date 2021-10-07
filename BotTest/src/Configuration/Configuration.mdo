@@ -28,9 +28,9 @@
   </languages>
   <subsystems>Subsystem.КлючиИТокены</subsystems>
   <subsystems>Subsystem.ОсновныеФормы</subsystems>
-  <subsystems>Subsystem.тест</subsystems>
+  <subsystems>Subsystem.ОбщаяПодсистема</subsystems>
   <roles>Role.РольАдмин</roles>
-  <commonModules>CommonModule.ОбщийМодуль1</commonModules>
+  <commonModules>CommonModule.РегламентныеЗадачиОбщийМодуль</commonModules>
   <httpServices>HTTPService.tgbot</httpServices>
   <wsReferences>WSReference.CBR_DailyInfoWebServ</wsReferences>
   <scheduledJobs>ScheduledJob.ОбновитьАксесТокен</scheduledJobs>
@@ -46,9 +46,8 @@
   <constants>Constant.ДобавитьЧек</constants>
   <constants>Constant.ПоказатьЧек</constants>
   <constants>Constant.СРМЧек</constants>
-  <commonForms>CommonForm.КлючАпи</commonForms>
-  <dataProcessors>DataProcessor.Обработка</dataProcessors>
-  <dataProcessors>DataProcessor.Погода</dataProcessors>
-  <dataProcessors>DataProcessor.Календарь</dataProcessors>
-  <dataProcessors>DataProcessor.Календарь1С</dataProcessors>
+  <constants>Constant.НовыйПользователь</constants>
+  <dataProcessors>DataProcessor.ОбновитьТокены</dataProcessors>
+  <informationRegisters>InformationRegister.АккаунтыПользователей</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПодключенияСРМ</informationRegisters>
 </mdclass:Configuration>

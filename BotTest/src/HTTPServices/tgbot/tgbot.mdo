@@ -58,29 +58,4 @@
       <handler>messageGetMethod</handler>
     </methods>
   </urlTemplates>
-  <urlTemplates uuid="c6a71ac6-04d4-419c-8c31-429497f0b6ca">
-    <name>msg</name>
-    <synonym>
-      <key>ru</key>
-      <value>Msg</value>
-    </synonym>
-    <template>/msg/{token}</template>
-    <methods uuid="c50b784b-6a0a-4e28-92d7-1e47c1adb2a2">
-      <name>GetMethod</name>
-      <synonym>
-        <key>ru</key>
-        <value>Get method</value>
-      </synonym>
-      <handler>msgGetMethod</handler>
-    </methods>
-    <methods uuid="c0408997-ea4e-482e-8ff3-f0ee3250d561">
-      <name>PostMethod</name>
-      <synonym>
-        <key>ru</key>
-        <value>Post method</value>
-      </synonym>
-      <httpMethod>POST</httpMethod>
-      <handler>msgPostMethod</handler>
-    </methods>
-  </urlTemplates>
 </mdclass:HTTPService>

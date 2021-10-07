@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="891610fd-ec6f-436f-9e94-feb32c90f6c2">
+  <producedTypes>
+    <selectionType typeId="8cb401da-2eeb-468f-994d-bc52aeaf925a" valueTypeId="e6659e33-fe44-49de-86e6-b16fdb899481"/>
+    <listType typeId="252c2446-b8be-4e9d-942d-f0b89cb197f1" valueTypeId="c2d168d3-cec5-4368-a80b-f688fe19a137"/>
+    <managerType typeId="d03f840e-7ad1-4020-aef4-4d00ba2a0be1" valueTypeId="ab308667-91ed-493d-9db7-5aa1892fbfcf"/>
+    <recordSetType typeId="f80a6f70-9e14-4e57-8fc2-eef270b9d297" valueTypeId="f950dc2a-a97b-4cf8-a2c6-600f67732631"/>
+    <recordKeyType typeId="af478f9e-5457-466b-bf0a-12ccc4061438" valueTypeId="49c10eed-2465-4e6f-bbad-4f4dc0a94690"/>
+    <recordType typeId="99b82e64-667d-4fe8-820c-2961e97e3ad2" valueTypeId="523cd19a-237e-4459-8ba4-0b8fe373b835"/>
+    <recordManagerType typeId="ae678010-7a6d-4e24-b64a-009ffa3ad0e5" valueTypeId="23fea591-2edf-41d7-9b0b-ba79d26b6124"/>
+  </producedTypes>
+  <name>АккаунтыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аккаунты пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="15ddfc40-d8af-42d6-ab84-e5c39fd5da03">
+    <name>ЧатИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат ИД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="71bd517f-9f52-4844-bd59-839d04b06553">
+    <name>Субдомен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субдомен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f772c1a-ea26-4c1f-a3b2-25dd8de5e9f9">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

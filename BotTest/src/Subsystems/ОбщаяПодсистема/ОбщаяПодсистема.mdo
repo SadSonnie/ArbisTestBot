@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="145e3e64-ac42-48c8-9d93-654d31851d96">
-  <name>тест</name>
+  <name>ОбщаяПодсистема</name>
   <synonym>
     <key>ru</key>
-    <value>Тест</value>
+    <value>Общая подсистема</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>CommonModule.ОбщийМодуль1</content>
+  <content>CommonModule.РегламентныеЗадачиОбщийМодуль</content>
   <content>Role.РольАдмин</content>
   <content>ScheduledJob.ОбновитьАксесТокен</content>
-  <content>CommonForm.КлючАпи</content>
   <content>HTTPService.tgbot</content>
   <content>WSReference.CBR_DailyInfoWebServ</content>
   <content>Constant.КлючАпи</content>
@@ -19,14 +18,14 @@
   <content>Constant.РефрешТокен</content>
   <content>Constant.АксесТокен</content>
   <content>Constant.AuthCode</content>
-  <content>DataProcessor.Обработка</content>
-  <content>DataProcessor.Погода</content>
-  <content>DataProcessor.Календарь</content>
-  <content>DataProcessor.Календарь1С</content>
   <content>Constant.TelegramBotToken</content>
   <content>Constant.ГифиТокен</content>
   <content>Constant.ГифЧек</content>
   <content>Constant.ДобавитьЧек</content>
   <content>Constant.ПоказатьЧек</content>
   <content>Constant.СРМЧек</content>
+  <content>InformationRegister.АккаунтыПользователей</content>
+  <content>DataProcessor.ОбновитьТокены</content>
+  <content>Constant.НовыйПользователь</content>
+  <content>InformationRegister.ДанныеПодключенияСРМ</content>
 </mdclass:Subsystem>

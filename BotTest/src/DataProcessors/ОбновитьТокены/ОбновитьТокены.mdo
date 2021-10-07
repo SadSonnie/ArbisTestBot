@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e8e3aa-a87e-41c8-8f54-d91fa5dccb36">
+  <producedTypes>
+    <objectType typeId="91535cea-9e85-4612-b4c2-ffee8c7d4575" valueTypeId="f955660f-ce01-4ddf-9f6c-d32c03af4176"/>
+    <managerType typeId="e525abe8-b2ff-4941-b830-818e61f2bbb8" valueTypeId="7481dda8-c2d1-4ac8-bbca-7ed9b87d05eb"/>
+  </producedTypes>
+  <name>ОбновитьТокены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить токены</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ОбновитьТокены.Form.ОбновитьТокены</defaultForm>
+  <forms uuid="a11dce37-6c80-4310-a502-dc259751db14">
+    <name>ОбновитьТокены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить токены</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
