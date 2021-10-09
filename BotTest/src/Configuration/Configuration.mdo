@@ -50,4 +50,5 @@
   <dataProcessors>DataProcessor.ОбновитьТокены</dataProcessors>
   <informationRegisters>InformationRegister.АккаунтыПользователей</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПодключенияСРМ</informationRegisters>
+  <informationRegisters>InformationRegister.ПризнакНовых</informationRegisters>
 </mdclass:Configuration>

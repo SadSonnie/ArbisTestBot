@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a540f6aa-814a-4af7-9a95-f9728e0b4f9e">
+  <producedTypes>
+    <selectionType typeId="623f9561-9f5c-49d8-9a55-bba9e04a68bc" valueTypeId="1fc53fb2-dfbe-437a-8a9c-c2d630a4dde6"/>
+    <listType typeId="e56156d1-3f6d-489f-897e-a5b6073fc15f" valueTypeId="38526fd7-fdf3-42fa-a412-7c6bcb4ddec1"/>
+    <managerType typeId="0f668287-b919-4bd1-b0b4-a8a4db4b61b0" valueTypeId="07047929-89bc-43b4-ac20-908bd03eda29"/>
+    <recordSetType typeId="74ce3338-5e2d-4a38-991e-c0d47c755f83" valueTypeId="0a395bba-5216-4b75-8d83-8aca5cefc158"/>
+    <recordKeyType typeId="8b73e774-9a11-4873-a255-2cc7075f4b20" valueTypeId="e633ca00-5c48-4a4c-9d87-3bb0fca4dfb8"/>
+    <recordType typeId="43bb6711-f942-4cad-b216-7aa009b06765" valueTypeId="a8511a94-349e-432a-b5e5-271690a99ed9"/>
+    <recordManagerType typeId="5342a812-3f38-4ee5-a436-a80b6ed12cf0" valueTypeId="eda0f7c2-633e-4441-81d1-f1edf3a9ab48"/>
+  </producedTypes>
+  <name>ПризнакНовых</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признак новых</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="f2abed79-8ea8-408c-af18-1c340dbc6670">
+    <name>ЧатИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Чат ИД</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>38</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d5a550c6-2574-4971-ad3c-201399291cf2">
+    <name>НовыйПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый пользователь</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
